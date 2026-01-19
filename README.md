@@ -75,14 +75,6 @@ The system uses **RTC-based hardware timing**, **external interrupts**, and **EE
 
 ---
 
-## ⏱️ RTC Usage
-- RTC is used **internally only**
-- Time is **not displayed**
-- Minute register is monitored to trigger periodic tasks
-- Ensures accurate timing independent of CPU load
-
----
-
 ## 🛠️ Tools & Technologies
 - Embedded C
 - Keil µVision
