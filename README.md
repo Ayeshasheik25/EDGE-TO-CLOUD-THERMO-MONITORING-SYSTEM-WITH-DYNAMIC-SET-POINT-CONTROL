@@ -1,7 +1,7 @@
-# Edge-to-Cloud IoT Monitoring System (LPC2148)
+# EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL 
 
 ## 📌 Overview
-This project implements a **real-time Edge-to-Cloud IoT monitoring system** using the **LPC2148 ARM7 microcontroller**.  
+This project implements a **EDGE-TO-CLOUD-THERMO-MONITORING-SYSTEM-WITH-DYNAMIC-SET-POINT-CONTROL** using the **LPC2148 ARM7 microcontroller**.  
 It measures **temperature and humidity**, displays them locally, compares temperature against a **user-defined set-point**, and uploads data to the **ThingSpeak cloud** using an **ESP8266 (ESP-01) Wi-Fi module**.
 
 The system uses **RTC-based hardware timing**, **external interrupts**, and **EEPROM-backed configuration**, making it reliable, accurate, and suitable for real-world embedded IoT applications.
@@ -10,7 +10,7 @@ The system uses **RTC-based hardware timing**, **external interrupts**, and **EE
 
 ## 🎯 Key Features
 - 🌡️ Real-time **Temperature & Humidity monitoring** (DHT11)
-- ⏱️ **RTC-based timing control** (no software delay dependency)
+- ⏱️ **RTC-based timing control**
 - ☁️ **Cloud upload** using ESP8266 + ThingSpeak
 - 🔔 **Buzzer alert** when temperature exceeds set-point
 - 💾 **EEPROM storage** for non-volatile set-point retention
@@ -88,7 +88,6 @@ The system uses **RTC-based hardware timing**, **external interrupts**, and **EE
 - Timestamped cloud logging
 - Mobile app dashboard
 - Multiple sensor support
-- OTA firmware updates
 
 ---
 
